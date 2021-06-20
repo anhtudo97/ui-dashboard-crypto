@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Checkout my website: [UI Dashboard](https://crypto-dashboard-kti93w8yo-anhtudo97.vercel.app/)
+Checkout my website: [UI Dashboard](https://ui-dashboard-crypto.vercel.app/)
 
 ### Install
 
