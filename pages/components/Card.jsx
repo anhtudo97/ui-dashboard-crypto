@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useMemo } from 'react';
+import clsx from 'clsx';
 import AllOutIcon from '@material-ui/icons/AllOut';
 import DoneIcon from '@material-ui/icons/Done';
 import EcoIcon from '@material-ui/icons/Eco';
@@ -31,7 +32,7 @@ export const Card = (props) => {
     >
       <div className="flex justify-between">
         <div></div>
-        <div className="items-center justify-center w-10 h-10 m-1 bg-gray-300 rounded-xl bg-opacity-30">
+        <div className="flex items-center justify-center w-10 h-10 m-1 bg-gray-300 rounded-xl bg-opacity-30">
           {arrayIcon[props.icon]}
         </div>
       </div>
