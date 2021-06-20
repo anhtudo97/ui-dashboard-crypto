@@ -4,7 +4,7 @@ import CropLandscapeIcon from '@material-ui/icons/CropLandscape';
 import AppsIcon from '@material-ui/icons/Apps';
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 
-export const Header = () => {
+const Header = () => {
   return (
     <div className="flex justify-between p-4 shadow-sm bg-gray-50 ">
       <div className="flex space-x-3 ">
@@ -21,3 +21,5 @@ export const Header = () => {
     </div>
   );
 };
+
+export default Header;

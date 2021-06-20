@@ -8,7 +8,7 @@ import LayersIcon from '@material-ui/icons/Layers';
 import LockIcon from '@material-ui/icons/Lock';
 import EcoIcon from '@material-ui/icons/Eco';
 
-export const Sidebar = () => {
+const Sidebar = () => {
   return (
     <div className="w-6/12 h-screen shadow-2xl md:w-3/12">
       <div className="flex justify-around py-3 mt-1 border-b">
@@ -78,3 +78,5 @@ export const Sidebar = () => {
     </div>
   );
 };
+
+export default Sidebar;

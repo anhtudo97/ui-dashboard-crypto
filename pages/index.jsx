@@ -1,8 +1,8 @@
 import { Fragment } from 'react';
 import Head from 'next/head';
-import { Sidebar } from './components/Sidebar';
-import { Header } from './components/Header';
-import { Container } from './components/Container';
+import Sidebar from './components/Sidebar';
+import Header from './components/Header';
+import Container from './components/Container';
 
 export default function Home() {
   return (

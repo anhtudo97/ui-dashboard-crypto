@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const RightBar = () => {
+const RightBar = () => {
   return (
     <div className="w-4/12 bg-white border border-gray-100 rounded-xl">
       <div className="p-3 border-b border-gray-100">
@@ -36,3 +36,5 @@ export const RightBar = () => {
     </div>
   );
 };
+
+export default RightBar;

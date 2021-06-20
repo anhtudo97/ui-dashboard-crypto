@@ -8,10 +8,10 @@ import LockIcon from '@material-ui/icons/Lock';
 const Style = 'text-white text-xs';
 
 const arrayIcon = [
-  <AllOutIcon fontSize="small" className={Style} />,
-  <DoneIcon fontSize="small" className={Style} />,
-  <EcoIcon fontSize="small" className={Style} />,
-  <LockIcon fontSize="small" className={Style} />,
+  <AllOutIcon key="allout" fontSize="small" className={Style} />,
+  <DoneIcon key="done" fontSize="small" className={Style} />,
+  <EcoIcon key="eco" fontSize="small" className={Style} />,
+  <LockIcon key="lock" fontSize="small" className={Style} />,
 ];
 
 const Color = [
@@ -21,7 +21,7 @@ const Color = [
   'from-yellow-600 to-yellow-500',
 ];
 
-export const Card = (props) => {
+const Card = (props) => {
   const balance = useMemo(() => props.balance * 9.5, [props.balance]);
   return (
     <div
@@ -42,3 +42,5 @@ export const Card = (props) => {
     </div>
   );
 };
+
+export default Card;

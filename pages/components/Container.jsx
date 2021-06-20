@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { Card } from './Card';
-import { Middle } from './Middle';
-import { RightBar } from './RightBar';
+import Card from './Card';
+import Middle from './Middle';
+import RightBar from './RightBar';
 
-export const Container = () => {
+const Container = () => {
   return (
     <div className="bg-gradient-to-r from-gray-100 to-gray-50">
       <div className="px-8 py-1">
@@ -24,3 +24,5 @@ export const Container = () => {
     </div>
   );
 };
+
+export default Container;

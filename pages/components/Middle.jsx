@@ -28,7 +28,7 @@ const data = {
   ],
 };
 
-export const Middle = () => {
+const Middle = () => {
   return (
     <div className="w-8/12 ml-2 bg-white border border-gray-100 shadow-sm rounded-xl">
       <div className="p-3 border-b border-gray-100">
@@ -40,3 +40,5 @@ export const Middle = () => {
     </div>
   );
 };
+
+export default Middle;
