@@ -10,7 +10,7 @@ import EcoIcon from '@material-ui/icons/Eco';
 
 const Sidebar = () => {
   return (
-    <div className="w-6/12 h-screen shadow-2xl md:w-3/12">
+    <div className="h-screen shadow-2xl md:w-2/12">
       <div className="flex justify-around py-3 mt-1 border-b">
         <p className="text-xl font-semibold">Tuanh</p>
         <p>|</p>

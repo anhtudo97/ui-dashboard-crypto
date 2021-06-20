@@ -2,6 +2,8 @@
 
 ## Getting Started
 
+Checkout my website: [UI Dashboard](https://crypto-dashboard-kti93w8yo-anhtudo97.vercel.app/)
+
 ### Install
 
 ```sh

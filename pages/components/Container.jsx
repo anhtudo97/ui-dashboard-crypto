@@ -6,7 +6,7 @@ import RightBar from './RightBar';
 
 const Container = () => {
   return (
-    <div className="bg-gradient-to-r from-gray-100 to-gray-50">
+    <div className="overflow-hidden bg-gradient-to-r from-gray-100 to-gray-50">
       <div className="px-8 py-1">
         <p className="text-lg text-gray-500">Zhao</p>
         <p className="text-2xl font-bold transform-translate-y-2">Tuanh!</p>
