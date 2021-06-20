@@ -6,6 +6,11 @@
   "repository": "https://github.com/anhtudo97/ui-dashboard-crypto.git",
   "author": "tuanh",
   "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
@@ -22,6 +27,7 @@
     "tailwindcss": "^2.2.2"
   },
   "devDependencies": {
+    "clsx": "^1.1.1",
     "husky": "^6.0.0"
   }
 }
